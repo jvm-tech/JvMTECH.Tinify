@@ -1,0 +1,21 @@
+Flowpack:
+  JobQueue:
+    Common:
+      queues:
+        tinify:
+          className: 'Flowpack\JobQueue\Doctrine\Queue\DoctrineQueue'
+          executeIsolated: true
+          options:
+            defaultTimeout: 50
+          releaseOptions:
+            priority: 512
+            delay: 120
+
+JvMTECH:
+  Tinify:
+    apiKey: ''
+    formats:
+      'image/jpeg':
+        enabled: true
+      'image/png':
+        enabled: true

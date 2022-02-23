@@ -1,0 +1,26 @@
+{
+    "name": "jvmtech/tinify",
+    "description": "Tinify JPG and PNG thumbnails",
+    "type": "neos-plugin",
+    "authors": [
+        {
+            "name": "Jung von Matt TECH",
+            "homepage": "https://jvmtech.ch",
+            "role": "Company"
+        }
+    ],
+    "require": {
+        "neos/media": "~7.0",
+        "tinify/tinify": "~1.5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "JvMTECH\\Tinify\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "JvMTECH.Tinify"
+        }
+    }
+}

@@ -1,0 +1,7 @@
+JvMTECH:
+  Tinify:
+    formats:
+      'image/jpeg':
+        enabled: false
+      'image/png':
+        enabled: false
